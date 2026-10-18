@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T07:10:36Z",
+  "generatedAt": "2026-10-18T07:30:11Z",
   "source": "https://lichess.org/@/Scarfire/tournaments/created",
   "teamId": "bbs-polska",
   "creator": "Scarfire",
@@ -2572,7 +2572,7 @@
       "username": "TausendjahrigeAdler",
       "points": 99,
       "battles": 11,
-      "average": 9,
+      "average": 9.0,
       "bestScore": 24,
       "history": [
         {
@@ -2702,7 +2702,7 @@
       "username": "starypolak",
       "points": 84,
       "battles": 7,
-      "average": 12,
+      "average": 12.0,
       "bestScore": 32,
       "history": [
         {
@@ -2982,7 +2982,7 @@
       "username": "Pawek1936",
       "points": 58,
       "battles": 2,
-      "average": 29,
+      "average": 29.0,
       "bestScore": 30,
       "history": [
         {
@@ -3154,7 +3154,7 @@
       "username": "RYSZARDO",
       "points": 56,
       "battles": 14,
-      "average": 4,
+      "average": 4.0,
       "bestScore": 10,
       "history": [
         {
@@ -3317,7 +3317,7 @@
       "username": "czarny_humor",
       "points": 56,
       "battles": 4,
-      "average": 14,
+      "average": 14.0,
       "bestScore": 24,
       "history": [
         {
@@ -3445,7 +3445,7 @@
       "username": "kubak5",
       "points": 40,
       "battles": 8,
-      "average": 5,
+      "average": 5.0,
       "bestScore": 9,
       "history": [
         {
@@ -3617,7 +3617,7 @@
       "username": "MaciekLu",
       "points": 30,
       "battles": 6,
-      "average": 5,
+      "average": 5.0,
       "bestScore": 13,
       "history": [
         {
@@ -3734,7 +3734,7 @@
       "username": "PandaMala",
       "points": 26,
       "battles": 2,
-      "average": 13,
+      "average": 13.0,
       "bestScore": 26,
       "history": [
         {
@@ -4259,7 +4259,7 @@
       "username": "Harmonista",
       "points": 18,
       "battles": 2,
-      "average": 9,
+      "average": 9.0,
       "bestScore": 9,
       "history": [
         {
@@ -4387,7 +4387,7 @@
       "username": "janfisher",
       "points": 16,
       "battles": 2,
-      "average": 8,
+      "average": 8.0,
       "bestScore": 8,
       "history": [
         {
@@ -5046,7 +5046,7 @@
       "username": "Kacperkowa03",
       "points": 12,
       "battles": 4,
-      "average": 3,
+      "average": 3.0,
       "bestScore": 8,
       "history": [
         {
@@ -5099,7 +5099,7 @@
       "username": "Bielszczanka",
       "points": 12,
       "battles": 3,
-      "average": 4,
+      "average": 4.0,
       "bestScore": 8,
       "history": [
         {
@@ -5141,7 +5141,7 @@
       "username": "etelSzachista",
       "points": 12,
       "battles": 1,
-      "average": 12,
+      "average": 12.0,
       "bestScore": 12,
       "history": [
         {
@@ -5161,7 +5161,7 @@
       "username": "karolppl",
       "points": 10,
       "battles": 2,
-      "average": 5,
+      "average": 5.0,
       "bestScore": 8,
       "history": [
         {
@@ -5192,7 +5192,7 @@
       "username": "PaulBishop",
       "points": 10,
       "battles": 2,
-      "average": 5,
+      "average": 5.0,
       "bestScore": 6,
       "history": [
         {
@@ -5223,7 +5223,7 @@
       "username": "magdaoborska",
       "points": 10,
       "battles": 1,
-      "average": 10,
+      "average": 10.0,
       "bestScore": 10,
       "history": [
         {
@@ -5243,7 +5243,7 @@
       "username": "Szymon_007",
       "points": 9,
       "battles": 3,
-      "average": 3,
+      "average": 3.0,
       "bestScore": 9,
       "history": [
         {
@@ -5457,7 +5457,7 @@
       "username": "telepawel",
       "points": 8,
       "battles": 2,
-      "average": 4,
+      "average": 4.0,
       "bestScore": 8,
       "history": [
         {
@@ -5488,7 +5488,7 @@
       "username": "Leon18072014",
       "points": 8,
       "battles": 1,
-      "average": 8,
+      "average": 8.0,
       "bestScore": 8,
       "history": [
         {
@@ -5508,7 +5508,7 @@
       "username": "Pine_Mojito",
       "points": 8,
       "battles": 1,
-      "average": 8,
+      "average": 8.0,
       "bestScore": 8,
       "history": [
         {
@@ -5581,7 +5581,7 @@
       "username": "Happy_Chesss",
       "points": 6,
       "battles": 1,
-      "average": 6,
+      "average": 6.0,
       "bestScore": 6,
       "history": [
         {
@@ -5846,7 +5846,7 @@
       "username": "Budziolek96",
       "points": 4,
       "battles": 2,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -5877,7 +5877,7 @@
       "username": "GroznyTymian",
       "points": 4,
       "battles": 2,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 4,
       "history": [
         {
@@ -5908,7 +5908,7 @@
       "username": "Juliakowalczyk",
       "points": 4,
       "battles": 2,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 4,
       "history": [
         {
@@ -5939,7 +5939,7 @@
       "username": "Kubalinho",
       "points": 4,
       "battles": 1,
-      "average": 4,
+      "average": 4.0,
       "bestScore": 4,
       "history": [
         {
@@ -5959,7 +5959,7 @@
       "username": "Witaj_I_Am_Light",
       "points": 4,
       "battles": 1,
-      "average": 4,
+      "average": 4.0,
       "bestScore": 4,
       "history": [
         {
@@ -6169,7 +6169,7 @@
       "username": "Daniel1979",
       "points": 2,
       "battles": 2,
-      "average": 1,
+      "average": 1.0,
       "bestScore": 2,
       "history": [
         {
@@ -6200,7 +6200,7 @@
       "username": "ja_kubek",
       "points": 2,
       "battles": 2,
-      "average": 1,
+      "average": 1.0,
       "bestScore": 2,
       "history": [
         {
@@ -6231,7 +6231,7 @@
       "username": "tataszach",
       "points": 2,
       "battles": 2,
-      "average": 1,
+      "average": 1.0,
       "bestScore": 2,
       "history": [
         {
@@ -6262,7 +6262,7 @@
       "username": "dragon-komoda",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6282,7 +6282,7 @@
       "username": "FRAKS2008",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6302,7 +6302,7 @@
       "username": "Nodek7",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6322,7 +6322,7 @@
       "username": "rbcb",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6342,7 +6342,7 @@
       "username": "wik2012",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6362,7 +6362,7 @@
       "username": "WojtasZ12",
       "points": 2,
       "battles": 1,
-      "average": 2,
+      "average": 2.0,
       "bestScore": 2,
       "history": [
         {
@@ -6382,7 +6382,7 @@
       "username": "luteczek",
       "points": 1,
       "battles": 1,
-      "average": 1,
+      "average": 1.0,
       "bestScore": 1,
       "history": [
         {
@@ -6402,7 +6402,7 @@
       "username": "Jan_Zaw",
       "points": 0,
       "battles": 12,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6543,7 +6543,7 @@
       "username": "Astowa",
       "points": 0,
       "battles": 4,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6596,7 +6596,7 @@
       "username": "Milosz-2012",
       "points": 0,
       "battles": 4,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6649,7 +6649,7 @@
       "username": "Aleksander_Bigora",
       "points": 0,
       "battles": 3,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6691,7 +6691,7 @@
       "username": "alicjabielicja",
       "points": 0,
       "battles": 3,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6733,7 +6733,7 @@
       "username": "Andromeder",
       "points": 0,
       "battles": 3,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6775,7 +6775,7 @@
       "username": "WingedHussars1111",
       "points": 0,
       "battles": 3,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6817,7 +6817,7 @@
       "username": "Bluebreeze",
       "points": 0,
       "battles": 2,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6848,7 +6848,7 @@
       "username": "Franek_Rakoczy",
       "points": 0,
       "battles": 2,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6879,7 +6879,7 @@
       "username": "Mikosbubus",
       "points": 0,
       "battles": 2,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6910,7 +6910,7 @@
       "username": "Pietiachodorowski",
       "points": 0,
       "battles": 2,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6941,7 +6941,7 @@
       "username": "Bartosz_Kulak",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6961,7 +6961,7 @@
       "username": "CzerwonyWas",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -6981,7 +6981,7 @@
       "username": "dziad17",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7001,7 +7001,7 @@
       "username": "IGNACY1522",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7021,7 +7021,7 @@
       "username": "Kamil_SWIENTEK",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7041,7 +7041,7 @@
       "username": "LukaszekW",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7061,7 +7061,7 @@
       "username": "MarcinMarciniak",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7081,7 +7081,7 @@
       "username": "millefiori",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7101,7 +7101,7 @@
       "username": "Olp675",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7121,7 +7121,7 @@
       "username": "POLSKAGUROM06",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7141,7 +7141,7 @@
       "username": "qqwow",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7161,7 +7161,7 @@
       "username": "Stasiulek",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7181,7 +7181,7 @@
       "username": "SzachowyTotem",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
@@ -7201,7 +7201,7 @@
       "username": "WikiTomaszewska",
       "points": 0,
       "battles": 1,
-      "average": 0,
+      "average": 0.0,
       "bestScore": 0,
       "history": [
         {
