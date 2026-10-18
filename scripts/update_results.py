@@ -144,15 +144,26 @@ def collect_tournament_results(tournament: dict[str, Any]) -> tuple[list[dict[st
 
     warnings: list[str] = []
     if raw_results and not selected:
-        # Do not silently publish a zero-result ranking if Lichess changes the
-        # shape/value of the optional `team` result field. Fail this run so the
-        # last good dataset remains online, and emit a diagnostic.
-        sample_teams = ", ".join(sorted(raw_teams)[:12]) or "brak wartości team"
-        raise RuntimeError(
-            f"Nie rozpoznano zawodników BBS w bitwie {tournament_id}. "
-            f"Przykładowe wartości pola team: {sample_teams}. "
-            "Nie nadpisuję ostatnich poprawnych danych."
-        )
+        if raw_teams:
+            # A battle can list BBS Polska among the invited teams even when
+            # no participant actually plays under that team in this event.
+            # In that case, other teams' scores are valid data, not an API
+            # schema failure. Keep the event visible with zero BBS players
+            # and continue collecting the remaining history.
+            sample_teams = ", ".join(sorted(raw_teams)[:12])
+            warnings.append(
+                f"W bitwie {tournament_id} nie ma wyników przypisanych do drużyny "
+                f"'{TEAM_ID}'. API zwróciło wyniki dla innych drużyn ({sample_teams}); "
+                "bitwa pozostaje w historii z 0 punktami BBS Polska."
+            )
+        else:
+            # If rows no longer expose team identifiers at all, the API may
+            # have changed shape. Keep the last known good dataset rather than
+            # accidentally publishing an incomplete ranking.
+            raise RuntimeError(
+                f"Nie rozpoznano zawodników BBS w bitwie {tournament_id}, a wyniki nie zawierają "
+                "żadnych wartości pola team. Możliwa zmiana formatu API; nie nadpisuję danych."
+            )
     if missing_team_rows:
         warnings.append(
             f"W bitwie {tournament_id} {missing_team_rows} wpisów z API nie miało pola team; "
