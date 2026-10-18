@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "source": "https://lichess.org/@/Scarfire/tournaments/created",
+  "teamId": "bbs-polska",
+  "creator": "Scarfire",
+  "summary": {
+    "tournamentCount": 0,
+    "playerCount": 0,
+    "participationCount": 0,
+    "totalPoints": 0
+  },
+  "tournaments": [],
+  "players": [],
+  "warnings": [],
+  "error": null
+}

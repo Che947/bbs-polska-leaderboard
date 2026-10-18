@@ -1,0 +1,59 @@
+name: BBS Polska — update and deploy
+
+on:
+  push:
+    branches: [main, master]
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: bbs-polska-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Przygotuj Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Pobierz i przelicz wyniki z Lichess
+        run: python scripts/update_results.py
+
+      - name: Zapisz zaktualizowane dane w repozytorium
+        run: |
+          if git diff --quiet -- site/data/results.json; then
+            echo "Dane bez zmian — pomijam commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/data/results.json
+            git commit -m "chore: update BBS Polska leaderboard data"
+            git push
+          fi
+
+      - name: Skonfiguruj GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Spakuj stronę do publikacji
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Opublikuj stronę
+        id: deployment
+        uses: actions/deploy-pages@v4
