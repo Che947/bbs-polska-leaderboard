@@ -103,7 +103,7 @@ def get_created_team_battles() -> list[dict[str, Any]]:
             continue
         battles.append(tournament)
     battles.sort(key=lambda x: int(x.get("startsAt", 0) or 0))
-    print(f"Znaleziono ukończonych bitew BBS Polska: {len(battles)} (z {len(created)} turniejów Scarfire).")
+    print(f"Znaleziono {len(battles)} ukończonych bitew z BBS Polska na liście drużyn (z {len(created)} turniejów Scarfire); ranking uwzględni tylko bitwy z faktycznym udziałem zawodników.")
     return battles
 
 
@@ -145,25 +145,17 @@ def collect_tournament_results(tournament: dict[str, Any]) -> tuple[list[dict[st
     warnings: list[str] = []
     if raw_results and not selected:
         if raw_teams:
-            # A battle can list BBS Polska among the invited teams even when
-            # no participant actually plays under that team in this event.
-            # In that case, other teams' scores are valid data, not an API
-            # schema failure. Keep the event visible with zero BBS players
-            # and continue collecting the remaining history.
-            sample_teams = ", ".join(sorted(raw_teams)[:12])
-            warnings.append(
-                f"W bitwie {tournament_id} nie ma wyników przypisanych do drużyny "
-                f"'{TEAM_ID}'. API zwróciło wyniki dla innych drużyn ({sample_teams}); "
-                "bitwa pozostaje w historii z 0 punktami BBS Polska."
-            )
-        else:
-            # If rows no longer expose team identifiers at all, the API may
-            # have changed shape. Keep the last known good dataset rather than
-            # accidentally publishing an incomplete ranking.
-            raise RuntimeError(
-                f"Nie rozpoznano zawodników BBS w bitwie {tournament_id}, a wyniki nie zawierają "
-                "żadnych wartości pola team. Możliwa zmiana formatu API; nie nadpisuję danych."
-            )
+            # The tournament list can include BBS Polska among invited teams
+            # even when no Polish-team player actually participated. This is
+            # expected for international team battles, not a data warning.
+            # The caller omits such events from the BBS Polska history.
+            return [], []
+        # If rows no longer expose team identifiers at all, the API may have
+        # changed shape. Fail safely rather than publish an incomplete ranking.
+        raise RuntimeError(
+            f"Nie rozpoznano zawodników BBS w bitwie {tournament_id}, a wyniki nie zawierają "
+            "żadnych wartości pola team. Możliwa zmiana formatu API; nie nadpisuję danych."
+        )
     if missing_team_rows:
         warnings.append(
             f"W bitwie {tournament_id} {missing_team_rows} wpisów z API nie miało pola team; "
@@ -194,6 +186,9 @@ def build_dataset() -> dict[str, Any]:
         finishes_at = int(tournament.get("finishesAt", 0) or 0)
         print(f"[{index + 1}/{len(battles)}] {name} ({tournament_id})…")
         players, event_warnings = collect_tournament_results(tournament)
+        if not players:
+            print(f"  Pomijam — w tej bitwie nie było zawodników przypisanych do drużyny {TEAM_ID}.")
+            continue
         warnings.extend(event_warnings)
 
         # Team-only place is based on descending battle scores; global Arena rank
@@ -233,6 +228,12 @@ def build_dataset() -> dict[str, Any]:
                 "rating": player["rating"],
                 "url": f"https://lichess.org/tournament/{quote(tournament_id, safe='')}",
             })
+
+    if not tournament_rows:
+        raise RuntimeError(
+            f"Nie znaleziono ukończonych bitew z rzeczywistym udziałem zawodników {TEAM_ID}; "
+            "nie nadpisuję ostatnich poprawnych danych."
+        )
 
     players_out = []
     participation_count = 0

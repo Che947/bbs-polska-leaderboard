@@ -7,6 +7,7 @@ const shortDateFmt = new Intl.DateTimeFormat('pl-PL', { day: '2-digit', month: '
 const monthNames = ['Styczeń','Luty','Marzec','Kwiecień','Maj','Czerwiec','Lipiec','Sierpień','Wrzesień','Październik','Listopad','Grudzień'];
 let dataset = { generatedAt: null, tournaments: [], players: [], warnings: [], error: null };
 let sortState = { key: 'points', direction: 'desc' };
+let showAllPlayers = false;
 
 function fmtDate(ms, short = false) {
   if (!ms) return '—';
@@ -46,7 +47,7 @@ function calculatePlayers() {
   return result;
 }
 function fillFilters() {
-  const years = [...new Set(dataset.tournaments.map((t) => new Date(t.startsAt).getFullYear()).filter(Number.isFinite))].sort((a,b) => b-a);
+  const years = [...new Set(dataset.tournaments.filter((t) => Number(t.bbsPlayerCount) > 0).map((t) => new Date(t.startsAt).getFullYear()).filter(Number.isFinite))].sort((a,b) => b-a);
   const year = byId('year-filter');
   const keepYear = year.value;
   year.innerHTML = '<option value="all">Cała historia</option><option value="current">Bieżący rok</option>';
@@ -84,13 +85,28 @@ function createPlayerCell(player, rank) {
   cell.append(wrapper); return cell;
 }
 function renderLeaderboard(players) {
-  const tbody = byId('leaderboard-body'); tbody.replaceChildren();
+  const tbody = byId('leaderboard-body');
+  const expand = byId('table-expand');
+  const toggle = byId('toggle-all-players');
+  tbody.replaceChildren();
   if (!players.length) {
     const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = 6; td.className = 'empty-cell';
     td.textContent = dataset.players.length ? 'Brak wyników w wybranym okresie lub dla tej frazy.' : 'Nie ma jeszcze pobranych wyników. Po pierwszym uruchomieniu synchronizacji tabela wypełni się automatycznie.';
-    tr.append(td); tbody.append(tr); return;
+    tr.append(td); tbody.append(tr);
+    expand.hidden = true;
+    byId('table-count').textContent = '0 zawodników';
+    return;
   }
-  players.forEach((p, i) => {
+  const searchActive = Boolean(getFilters().search);
+  const expanded = showAllPlayers || searchActive || players.length <= 10;
+  const visiblePlayers = expanded ? players : players.slice(0, 10);
+  expand.hidden = players.length <= 10 || searchActive;
+  toggle.textContent = showAllPlayers ? 'Pokaż tylko TOP 10' : `Pokaż wszystkich (${fmtScore(players.length)})`;
+  toggle.setAttribute('aria-expanded', String(showAllPlayers));
+  byId('table-count').textContent = expanded
+    ? `${fmtScore(players.length)} zawodników`
+    : `Pokazano 10 z ${fmtScore(players.length)} zawodników`;
+  visiblePlayers.forEach((p, i) => {
     const tr = document.createElement('tr');
     const rank = document.createElement('td'); rank.className = 'rank-number' + (i < 3 ? ` top-${['one','two','three'][i]}` : ''); rank.textContent = String(i + 1).padStart(2, '0'); tr.append(rank);
     tr.append(createPlayerCell(p, i + 1));
@@ -122,7 +138,7 @@ function renderPodium(players) {
 function renderBattles() {
   const root = byId('recent-battles'); root.replaceChildren();
   const filters = getFilters();
-  let events = dataset.tournaments.filter((t) => {
+  let events = dataset.tournaments.filter((t) => Number(t.bbsPlayerCount) > 0).filter((t) => {
     const d = new Date(t.startsAt || 0);
     if (filters.year !== 'all' && String(d.getFullYear()) !== (filters.year === 'current' ? String(new Date().getFullYear()) : filters.year)) return false;
     if (filters.month !== 'all' && String(d.getMonth() + 1) !== filters.month) return false;
@@ -140,7 +156,7 @@ function renderBattles() {
 }
 function renderStats(players) {
   const filters = getFilters();
-  const events = dataset.tournaments.filter((t) => {
+  const events = dataset.tournaments.filter((t) => Number(t.bbsPlayerCount) > 0).filter((t) => {
     const d=new Date(t.startsAt || 0);
     if (filters.year !== 'all' && String(d.getFullYear()) !== (filters.year === 'current' ? String(new Date().getFullYear()) : filters.year)) return false;
     if (filters.month !== 'all' && String(d.getMonth()+1) !== filters.month) return false;
@@ -153,13 +169,30 @@ function renderStats(players) {
   byId('table-count').textContent=`${players.length} ${players.length===1?'zawodnik':players.length>=2&&players.length<=4?'zawodników':'zawodników'}`;
 }
 function showWarnings() {
-  const box=byId('data-notice');
-  const warnings=[];
-  if (dataset.error) warnings.push(dataset.error);
-  if (Array.isArray(dataset.warnings)) warnings.push(...dataset.warnings);
-  if (!dataset.generatedAt && !dataset.error) warnings.push('Dane nie zostały jeszcze pobrane. Uruchom workflow „BBS Polska — update and deploy” w zakładce Actions na GitHubie.');
-  box.hidden=warnings.length===0;
-  box.textContent=warnings.join(' ');
+  const box = byId('data-notice');
+  const messages = [];
+  if (dataset.error) messages.push(dataset.error);
+
+  // Events where no Polish-team player participated are routine in
+  // international team battles, not warnings for visitors. Ignore those
+  // legacy warning strings and summarize only actionable data-quality notes.
+  const warnings = Array.isArray(dataset.warnings) ? dataset.warnings : [];
+  const actionable = warnings.filter((message) => !message.includes('nie ma wyników przypisanych do drużyny'));
+  if (actionable.length) {
+    const missingTeam = actionable.filter((message) => message.includes('wpisów z API nie miało pola team'));
+    if (missingTeam.length === actionable.length) {
+      const missingRows = missingTeam.reduce((sum, message) => {
+        const match = message.match(/(\\d+) wpisów z API/);
+        return sum + (match ? Number(match[1]) : 0);
+      }, 0);
+      messages.push(`Lichess nie udostępnił informacji o drużynie dla ${fmtScore(missingRows)} wpisów w ${fmtScore(missingTeam.length)} bitwach. Do rankingu wliczono wyłącznie jednoznacznie przypisanych zawodników.`);
+    } else {
+      messages.push(`Pobrano dane, ale wykryto ${fmtScore(actionable.length)} ostrzeżeń. Szczegóły są dostępne w Actions na GitHubie.`);
+    }
+  }
+  if (!dataset.generatedAt && !dataset.error) messages.push('Dane nie zostały jeszcze pobrane. Uruchom workflow „BBS Polska — update and deploy” w zakładce Actions na GitHubie.');
+  box.hidden = messages.length === 0;
+  box.textContent = messages.join(' ');
 }
 function render() {
   const players=calculatePlayers();
@@ -175,6 +208,10 @@ function render() {
 }
 function initEvents() {
   byId('search-player').addEventListener('input',render);
+  byId('toggle-all-players').addEventListener('click', () => {
+    showAllPlayers = !showAllPlayers;
+    render();
+  });
   byId('year-filter').addEventListener('change',()=>{
     if(byId('year-filter').value==='current') { /* Current year is resolved at render time. */ }
     render();

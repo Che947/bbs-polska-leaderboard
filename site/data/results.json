@@ -5,7 +5,7 @@
   "teamId": "bbs-polska",
   "creator": "Scarfire",
   "summary": {
-    "tournamentCount": 145,
+    "tournamentCount": 106,
     "playerCount": 95,
     "participationCount": 471,
     "totalPoints": 1807,
@@ -47,182 +47,6 @@
       "url": "https://lichess.org/tournament/0vixMFrn"
     },
     {
-      "id": "WbWAgody",
-      "name": "142nd Battle of the Baltic Sea Team Battle",
-      "startsAt": 1788627600000,
-      "finishesAt": 1788633000000,
-      "status": 30,
-      "nbPlayers": 33,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/WbWAgody"
-    },
-    {
-      "id": "SNiAbl1D",
-      "name": "141st Battle of the Baltic Sea Team Battle",
-      "startsAt": 1787418000000,
-      "finishesAt": 1787423400000,
-      "status": 30,
-      "nbPlayers": 23,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/SNiAbl1D"
-    },
-    {
-      "id": "3vR4uKaq",
-      "name": "140th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1786208400000,
-      "finishesAt": 1786213800000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/3vR4uKaq"
-    },
-    {
-      "id": "GEAzrzMh",
-      "name": "139th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1784998800000,
-      "finishesAt": 1785004200000,
-      "status": 30,
-      "nbPlayers": 21,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/GEAzrzMh"
-    },
-    {
-      "id": "IgPoCIqr",
-      "name": "138th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1783789200000,
-      "finishesAt": 1783794600000,
-      "status": 30,
-      "nbPlayers": 30,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/IgPoCIqr"
-    },
-    {
-      "id": "cmAq9y5d",
-      "name": "137th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1782579600000,
-      "finishesAt": 1782585000000,
-      "status": 30,
-      "nbPlayers": 21,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/cmAq9y5d"
-    },
-    {
-      "id": "IWBoF8BC",
-      "name": "136th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1781370000000,
-      "finishesAt": 1781375400000,
-      "status": 30,
-      "nbPlayers": 31,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/IWBoF8BC"
-    },
-    {
-      "id": "nRQipT5Y",
-      "name": "135th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1780160400000,
-      "finishesAt": 1780165800000,
-      "status": 30,
-      "nbPlayers": 19,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/nRQipT5Y"
-    },
-    {
-      "id": "Akfjvw6j",
-      "name": "134th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1778950800000,
-      "finishesAt": 1778956200000,
-      "status": 30,
-      "nbPlayers": 29,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/Akfjvw6j"
-    },
-    {
-      "id": "VeSrWo7R",
-      "name": "133rd Battle of the Baltic Sea Team Battle",
-      "startsAt": 1777827600000,
-      "finishesAt": 1777833000000,
-      "status": 30,
-      "nbPlayers": 29,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/VeSrWo7R"
-    },
-    {
-      "id": "qEfPQ9dt",
-      "name": "132nd Battle of the Baltic Sea Team Battle",
-      "startsAt": 1776531600000,
-      "finishesAt": 1776537000000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/qEfPQ9dt"
-    },
-    {
-      "id": "6ScLezpZ",
-      "name": "131st Battle of the Baltic Sea Team Battle",
-      "startsAt": 1775322000000,
-      "finishesAt": 1775327400000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/6ScLezpZ"
-    },
-    {
-      "id": "BM4RY0oo",
-      "name": "130th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1774116000000,
-      "finishesAt": 1774121400000,
-      "status": 30,
-      "nbPlayers": 28,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/BM4RY0oo"
-    },
-    {
-      "id": "aNH46e0U",
-      "name": "129th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1772906400000,
-      "finishesAt": 1772911800000,
-      "status": 30,
-      "nbPlayers": 31,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/aNH46e0U"
-    },
-    {
-      "id": "B3UvaGDn",
-      "name": "128th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1771696800000,
-      "finishesAt": 1771702200000,
-      "status": 30,
-      "nbPlayers": 30,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/B3UvaGDn"
-    },
-    {
-      "id": "yJmJFO0Y",
-      "name": "127th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1770487200000,
-      "finishesAt": 1770492600000,
-      "status": 30,
-      "nbPlayers": 38,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/yJmJFO0Y"
-    },
-    {
       "id": "U77ZW6M1",
       "name": "126th Battle of the Baltic Sea Team Battle",
       "startsAt": 1769277600000,
@@ -232,17 +56,6 @@
       "bbsPlayerCount": 2,
       "bbsPoints": 0,
       "url": "https://lichess.org/tournament/U77ZW6M1"
-    },
-    {
-      "id": "2B2IL8FL",
-      "name": "125th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1768068000000,
-      "finishesAt": 1768073400000,
-      "status": 30,
-      "nbPlayers": 29,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/2B2IL8FL"
     },
     {
       "id": "kGw2qEAj",
@@ -289,28 +102,6 @@
       "url": "https://lichess.org/tournament/f50fFomI"
     },
     {
-      "id": "OkVxIBAa",
-      "name": "120th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1762020000000,
-      "finishesAt": 1762025400000,
-      "status": 30,
-      "nbPlayers": 31,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/OkVxIBAa"
-    },
-    {
-      "id": "mavdMKwd",
-      "name": "119th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1760806800000,
-      "finishesAt": 1760812200000,
-      "status": 30,
-      "nbPlayers": 25,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/mavdMKwd"
-    },
-    {
       "id": "lHkqUlXR",
       "name": "118th Battle of the Baltic Sea Team Battle",
       "startsAt": 1759597200000,
@@ -320,17 +111,6 @@
       "bbsPlayerCount": 1,
       "bbsPoints": 4,
       "url": "https://lichess.org/tournament/lHkqUlXR"
-    },
-    {
-      "id": "n0loP4Cn",
-      "name": "117th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1758387600000,
-      "finishesAt": 1758393000000,
-      "status": 30,
-      "nbPlayers": 25,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/n0loP4Cn"
     },
     {
       "id": "PPNxWab6",
@@ -353,72 +133,6 @@
       "bbsPlayerCount": 3,
       "bbsPoints": 15,
       "url": "https://lichess.org/tournament/DBYztobV"
-    },
-    {
-      "id": "zUccjSNP",
-      "name": "114th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1754758800000,
-      "finishesAt": 1754764200000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/zUccjSNP"
-    },
-    {
-      "id": "1qblFwy2",
-      "name": "113th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1753549200000,
-      "finishesAt": 1753554600000,
-      "status": 30,
-      "nbPlayers": 18,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/1qblFwy2"
-    },
-    {
-      "id": "OwYNC29j",
-      "name": "112th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1752339600000,
-      "finishesAt": 1752345000000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/OwYNC29j"
-    },
-    {
-      "id": "xuvuzjjN",
-      "name": "111th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1751130000000,
-      "finishesAt": 1751135400000,
-      "status": 30,
-      "nbPlayers": 23,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/xuvuzjjN"
-    },
-    {
-      "id": "m48uyPHN",
-      "name": "110th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1749920400000,
-      "finishesAt": 1749925800000,
-      "status": 30,
-      "nbPlayers": 27,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/m48uyPHN"
-    },
-    {
-      "id": "guf8aYnA",
-      "name": "109th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1748710800000,
-      "finishesAt": 1748716200000,
-      "status": 30,
-      "nbPlayers": 26,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/guf8aYnA"
     },
     {
       "id": "mpM2at4e",
@@ -498,50 +212,6 @@
       "url": "https://lichess.org/tournament/E2Wxm14B"
     },
     {
-      "id": "PbqthnJh",
-      "name": "101st Battle of the Baltic Sea Team Battle",
-      "startsAt": 1739037600000,
-      "finishesAt": 1739043000000,
-      "status": 30,
-      "nbPlayers": 37,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/PbqthnJh"
-    },
-    {
-      "id": "23c0cYOL",
-      "name": "100th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1737828000000,
-      "finishesAt": 1737833400000,
-      "status": 30,
-      "nbPlayers": 47,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/23c0cYOL"
-    },
-    {
-      "id": "D4uhb9YB",
-      "name": "99th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1736618400000,
-      "finishesAt": 1736623800000,
-      "status": 30,
-      "nbPlayers": 34,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/D4uhb9YB"
-    },
-    {
-      "id": "IwGBIl35",
-      "name": "98th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1735408800000,
-      "finishesAt": 1735414200000,
-      "status": 30,
-      "nbPlayers": 32,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/IwGBIl35"
-    },
-    {
       "id": "YFWO63Pd",
       "name": "97th Battle of the Baltic Sea Team Battle",
       "startsAt": 1734199200000,
@@ -551,28 +221,6 @@
       "bbsPlayerCount": 3,
       "bbsPoints": 0,
       "url": "https://lichess.org/tournament/YFWO63Pd"
-    },
-    {
-      "id": "Xis7bQ0m",
-      "name": "96th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1732989600000,
-      "finishesAt": 1732995000000,
-      "status": 30,
-      "nbPlayers": 33,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/Xis7bQ0m"
-    },
-    {
-      "id": "rFyOzgLl",
-      "name": "95th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1731780000000,
-      "finishesAt": 1731785400000,
-      "status": 30,
-      "nbPlayers": 25,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/rFyOzgLl"
     },
     {
       "id": "6F087JsX",
@@ -1081,28 +729,6 @@
       "url": "https://lichess.org/tournament/WghWjgfU"
     },
     {
-      "id": "FgOfVo9z",
-      "name": "48th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1678557600000,
-      "finishesAt": 1678563000000,
-      "status": 30,
-      "nbPlayers": 37,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/FgOfVo9z"
-    },
-    {
-      "id": "6CDh7ulC",
-      "name": "47th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1677351660000,
-      "finishesAt": 1677357060000,
-      "status": 30,
-      "nbPlayers": 44,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/6CDh7ulC"
-    },
-    {
       "id": "cOZLpqFQ",
       "name": "46th Battle of the Baltic Sea Team Battle",
       "startsAt": 1676138400000,
@@ -1213,28 +839,6 @@
       "url": "https://lichess.org/tournament/IIbHku9X"
     },
     {
-      "id": "PV0PctZF",
-      "name": "36th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1662829200000,
-      "finishesAt": 1662834600000,
-      "status": 30,
-      "nbPlayers": 55,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/PV0PctZF"
-    },
-    {
-      "id": "dvKGEnnX",
-      "name": "35th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1661619600000,
-      "finishesAt": 1661625000000,
-      "status": 30,
-      "nbPlayers": 48,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/dvKGEnnX"
-    },
-    {
       "id": "S8h69Fvw",
       "name": "34th Battle of the Baltic Sea Team Battle",
       "startsAt": 1660410000000,
@@ -1244,17 +848,6 @@
       "bbsPlayerCount": 1,
       "bbsPoints": 0,
       "url": "https://lichess.org/tournament/S8h69Fvw"
-    },
-    {
-      "id": "tHSSb4hb",
-      "name": "33rd Battle of the Baltic Sea Team Battle",
-      "startsAt": 1659200400000,
-      "finishesAt": 1659205800000,
-      "status": 30,
-      "nbPlayers": 33,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/tHSSb4hb"
     },
     {
       "id": "OPw4b05h",
@@ -1301,17 +894,6 @@
       "url": "https://lichess.org/tournament/eQzLfceC"
     },
     {
-      "id": "PRwro0Mj",
-      "name": "28th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1653152400000,
-      "finishesAt": 1653157800000,
-      "status": 30,
-      "nbPlayers": 48,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/PRwro0Mj"
-    },
-    {
       "id": "djobPFrY",
       "name": "27th Battle of the Baltic Sea Team Battle",
       "startsAt": 1651942800000,
@@ -1332,17 +914,6 @@
       "bbsPlayerCount": 6,
       "bbsPoints": 28,
       "url": "https://lichess.org/tournament/zMalTgQZ"
-    },
-    {
-      "id": "KYXmU6HN",
-      "name": "25th Battle of the Baltic Sea Team Battle",
-      "startsAt": 1649523600000,
-      "finishesAt": 1649529000000,
-      "status": 30,
-      "nbPlayers": 59,
-      "bbsPlayerCount": 0,
-      "bbsPoints": 0,
-      "url": "https://lichess.org/tournament/KYXmU6HN"
     },
     {
       "id": "qjqfAzMo",
@@ -3001,7 +2572,7 @@
       "username": "TausendjahrigeAdler",
       "points": 99,
       "battles": 11,
-      "average": 9.0,
+      "average": 9,
       "bestScore": 24,
       "history": [
         {
@@ -3131,7 +2702,7 @@
       "username": "starypolak",
       "points": 84,
       "battles": 7,
-      "average": 12.0,
+      "average": 12,
       "bestScore": 32,
       "history": [
         {
@@ -3411,7 +2982,7 @@
       "username": "Pawek1936",
       "points": 58,
       "battles": 2,
-      "average": 29.0,
+      "average": 29,
       "bestScore": 30,
       "history": [
         {
@@ -3583,7 +3154,7 @@
       "username": "RYSZARDO",
       "points": 56,
       "battles": 14,
-      "average": 4.0,
+      "average": 4,
       "bestScore": 10,
       "history": [
         {
@@ -3746,7 +3317,7 @@
       "username": "czarny_humor",
       "points": 56,
       "battles": 4,
-      "average": 14.0,
+      "average": 14,
       "bestScore": 24,
       "history": [
         {
@@ -3874,7 +3445,7 @@
       "username": "kubak5",
       "points": 40,
       "battles": 8,
-      "average": 5.0,
+      "average": 5,
       "bestScore": 9,
       "history": [
         {
@@ -4046,7 +3617,7 @@
       "username": "MaciekLu",
       "points": 30,
       "battles": 6,
-      "average": 5.0,
+      "average": 5,
       "bestScore": 13,
       "history": [
         {
@@ -4163,7 +3734,7 @@
       "username": "PandaMala",
       "points": 26,
       "battles": 2,
-      "average": 13.0,
+      "average": 13,
       "bestScore": 26,
       "history": [
         {
@@ -4688,7 +4259,7 @@
       "username": "Harmonista",
       "points": 18,
       "battles": 2,
-      "average": 9.0,
+      "average": 9,
       "bestScore": 9,
       "history": [
         {
@@ -4816,7 +4387,7 @@
       "username": "janfisher",
       "points": 16,
       "battles": 2,
-      "average": 8.0,
+      "average": 8,
       "bestScore": 8,
       "history": [
         {
@@ -5475,7 +5046,7 @@
       "username": "Kacperkowa03",
       "points": 12,
       "battles": 4,
-      "average": 3.0,
+      "average": 3,
       "bestScore": 8,
       "history": [
         {
@@ -5528,7 +5099,7 @@
       "username": "Bielszczanka",
       "points": 12,
       "battles": 3,
-      "average": 4.0,
+      "average": 4,
       "bestScore": 8,
       "history": [
         {
@@ -5570,7 +5141,7 @@
       "username": "etelSzachista",
       "points": 12,
       "battles": 1,
-      "average": 12.0,
+      "average": 12,
       "bestScore": 12,
       "history": [
         {
@@ -5590,7 +5161,7 @@
       "username": "karolppl",
       "points": 10,
       "battles": 2,
-      "average": 5.0,
+      "average": 5,
       "bestScore": 8,
       "history": [
         {
@@ -5621,7 +5192,7 @@
       "username": "PaulBishop",
       "points": 10,
       "battles": 2,
-      "average": 5.0,
+      "average": 5,
       "bestScore": 6,
       "history": [
         {
@@ -5652,7 +5223,7 @@
       "username": "magdaoborska",
       "points": 10,
       "battles": 1,
-      "average": 10.0,
+      "average": 10,
       "bestScore": 10,
       "history": [
         {
@@ -5672,7 +5243,7 @@
       "username": "Szymon_007",
       "points": 9,
       "battles": 3,
-      "average": 3.0,
+      "average": 3,
       "bestScore": 9,
       "history": [
         {
@@ -5886,7 +5457,7 @@
       "username": "telepawel",
       "points": 8,
       "battles": 2,
-      "average": 4.0,
+      "average": 4,
       "bestScore": 8,
       "history": [
         {
@@ -5917,7 +5488,7 @@
       "username": "Leon18072014",
       "points": 8,
       "battles": 1,
-      "average": 8.0,
+      "average": 8,
       "bestScore": 8,
       "history": [
         {
@@ -5937,7 +5508,7 @@
       "username": "Pine_Mojito",
       "points": 8,
       "battles": 1,
-      "average": 8.0,
+      "average": 8,
       "bestScore": 8,
       "history": [
         {
@@ -6010,7 +5581,7 @@
       "username": "Happy_Chesss",
       "points": 6,
       "battles": 1,
-      "average": 6.0,
+      "average": 6,
       "bestScore": 6,
       "history": [
         {
@@ -6275,7 +5846,7 @@
       "username": "Budziolek96",
       "points": 4,
       "battles": 2,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6306,7 +5877,7 @@
       "username": "GroznyTymian",
       "points": 4,
       "battles": 2,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 4,
       "history": [
         {
@@ -6337,7 +5908,7 @@
       "username": "Juliakowalczyk",
       "points": 4,
       "battles": 2,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 4,
       "history": [
         {
@@ -6368,7 +5939,7 @@
       "username": "Kubalinho",
       "points": 4,
       "battles": 1,
-      "average": 4.0,
+      "average": 4,
       "bestScore": 4,
       "history": [
         {
@@ -6388,7 +5959,7 @@
       "username": "Witaj_I_Am_Light",
       "points": 4,
       "battles": 1,
-      "average": 4.0,
+      "average": 4,
       "bestScore": 4,
       "history": [
         {
@@ -6598,7 +6169,7 @@
       "username": "Daniel1979",
       "points": 2,
       "battles": 2,
-      "average": 1.0,
+      "average": 1,
       "bestScore": 2,
       "history": [
         {
@@ -6629,7 +6200,7 @@
       "username": "ja_kubek",
       "points": 2,
       "battles": 2,
-      "average": 1.0,
+      "average": 1,
       "bestScore": 2,
       "history": [
         {
@@ -6660,7 +6231,7 @@
       "username": "tataszach",
       "points": 2,
       "battles": 2,
-      "average": 1.0,
+      "average": 1,
       "bestScore": 2,
       "history": [
         {
@@ -6691,7 +6262,7 @@
       "username": "dragon-komoda",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6711,7 +6282,7 @@
       "username": "FRAKS2008",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6731,7 +6302,7 @@
       "username": "Nodek7",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6751,7 +6322,7 @@
       "username": "rbcb",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6771,7 +6342,7 @@
       "username": "wik2012",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6791,7 +6362,7 @@
       "username": "WojtasZ12",
       "points": 2,
       "battles": 1,
-      "average": 2.0,
+      "average": 2,
       "bestScore": 2,
       "history": [
         {
@@ -6811,7 +6382,7 @@
       "username": "luteczek",
       "points": 1,
       "battles": 1,
-      "average": 1.0,
+      "average": 1,
       "bestScore": 1,
       "history": [
         {
@@ -6831,7 +6402,7 @@
       "username": "Jan_Zaw",
       "points": 0,
       "battles": 12,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -6972,7 +6543,7 @@
       "username": "Astowa",
       "points": 0,
       "battles": 4,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7025,7 +6596,7 @@
       "username": "Milosz-2012",
       "points": 0,
       "battles": 4,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7078,7 +6649,7 @@
       "username": "Aleksander_Bigora",
       "points": 0,
       "battles": 3,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7120,7 +6691,7 @@
       "username": "alicjabielicja",
       "points": 0,
       "battles": 3,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7162,7 +6733,7 @@
       "username": "Andromeder",
       "points": 0,
       "battles": 3,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7204,7 +6775,7 @@
       "username": "WingedHussars1111",
       "points": 0,
       "battles": 3,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7246,7 +6817,7 @@
       "username": "Bluebreeze",
       "points": 0,
       "battles": 2,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7277,7 +6848,7 @@
       "username": "Franek_Rakoczy",
       "points": 0,
       "battles": 2,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7308,7 +6879,7 @@
       "username": "Mikosbubus",
       "points": 0,
       "battles": 2,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7339,7 +6910,7 @@
       "username": "Pietiachodorowski",
       "points": 0,
       "battles": 2,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7370,7 +6941,7 @@
       "username": "Bartosz_Kulak",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7390,7 +6961,7 @@
       "username": "CzerwonyWas",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7410,7 +6981,7 @@
       "username": "dziad17",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7430,7 +7001,7 @@
       "username": "IGNACY1522",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7450,7 +7021,7 @@
       "username": "Kamil_SWIENTEK",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7470,7 +7041,7 @@
       "username": "LukaszekW",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7490,7 +7061,7 @@
       "username": "MarcinMarciniak",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7510,7 +7081,7 @@
       "username": "millefiori",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7530,7 +7101,7 @@
       "username": "Olp675",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7550,7 +7121,7 @@
       "username": "POLSKAGUROM06",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7570,7 +7141,7 @@
       "username": "qqwow",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7590,7 +7161,7 @@
       "username": "Stasiulek",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7610,7 +7181,7 @@
       "username": "SzachowyTotem",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7630,7 +7201,7 @@
       "username": "WikiTomaszewska",
       "points": 0,
       "battles": 1,
-      "average": 0.0,
+      "average": 0,
       "bestScore": 0,
       "history": [
         {
@@ -7647,46 +7218,6 @@
       ]
     }
   ],
-  "warnings": [
-    "W bitwie KYXmU6HN nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie PRwro0Mj nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie tHSSb4hb nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie dvKGEnnX nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie PV0PctZF nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 6CDh7ulC nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie FgOfVo9z nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie rFyOzgLl nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie Xis7bQ0m nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie IwGBIl35 nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie D4uhb9YB nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 23c0cYOL nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie PbqthnJh nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie guf8aYnA nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie m48uyPHN nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie xuvuzjjN nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie OwYNC29j nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 1qblFwy2 nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie zUccjSNP nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie n0loP4Cn nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie mavdMKwd nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie OkVxIBAa nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 2B2IL8FL nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie yJmJFO0Y nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie B3UvaGDn nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie aNH46e0U nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie BM4RY0oo nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 6ScLezpZ nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie qEfPQ9dt nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie VeSrWo7R nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-eesti, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie Akfjvw6j nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie nRQipT5Y nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie IWBoF8BC nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie cmAq9y5d nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie IgPoCIqr nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie GEAzrzMh nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie 3vR4uKaq nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie SNiAbl1D nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska.",
-    "W bitwie WbWAgody nie ma wyników przypisanych do drużyny 'bbs-polska'. API zwróciło wyniki dla innych drużyn (bbs-danmark, bbs-deutschland, bbs-latvija, bbs-lietuva, bbs-suomi, bbs-sverige); bitwa pozostaje w historii z 0 punktami BBS Polska."
-  ],
+  "warnings": [],
   "error": null
 }
