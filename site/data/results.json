@@ -1,18 +1,29 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T12:34:27Z",
+  "generatedAt": "2026-10-31T21:39:24Z",
   "source": "https://lichess.org/@/Scarfire/tournaments/created",
   "teamId": "bbs-polska",
   "creator": "Scarfire",
   "summary": {
-    "tournamentCount": 106,
+    "tournamentCount": 107,
     "playerCount": 95,
-    "participationCount": 471,
-    "totalPoints": 1807,
+    "participationCount": 473,
+    "totalPoints": 1811,
     "firstBattleAt": 1619888400000,
-    "lastBattleAt": 1792256400000
+    "lastBattleAt": 1793469600000
   },
   "tournaments": [
+    {
+      "id": "YGSh3eMz",
+      "name": "146th Battle of the Baltic Sea Team Battle",
+      "startsAt": 1793469600000,
+      "finishesAt": 1793475000000,
+      "status": 30,
+      "nbPlayers": 24,
+      "bbsPlayerCount": 2,
+      "bbsPoints": 4,
+      "url": "https://lichess.org/tournament/YGSh3eMz"
+    },
     {
       "id": "vs4KJ3wN",
       "name": "145th Battle of the Baltic Sea Team Battle",
@@ -2056,8 +2067,8 @@
     {
       "username": "Che947",
       "points": 106,
-      "battles": 46,
-      "average": 2.3,
+      "battles": 47,
+      "average": 2.26,
       "bestScore": 18,
       "history": [
         {
@@ -2565,6 +2576,17 @@
           "teamRank": 1,
           "rating": 1845,
           "url": "https://lichess.org/tournament/vs4KJ3wN"
+        },
+        {
+          "tournamentId": "YGSh3eMz",
+          "name": "146th Battle of the Baltic Sea Team Battle",
+          "startsAt": 1793469600000,
+          "finishesAt": 1793475000000,
+          "score": 0,
+          "rank": 20,
+          "teamRank": 2,
+          "rating": 1909,
+          "url": "https://lichess.org/tournament/YGSh3eMz"
         }
       ]
     },
@@ -3731,41 +3753,10 @@
       ]
     },
     {
-      "username": "PandaMala",
-      "points": 26,
-      "battles": 2,
-      "average": 13.0,
-      "bestScore": 26,
-      "history": [
-        {
-          "tournamentId": "SVQkiu4D",
-          "name": "72nd Battle of the Baltic Sea Team Battle",
-          "startsAt": 1707588000000,
-          "finishesAt": 1707593400000,
-          "score": 0,
-          "rank": 55,
-          "teamRank": 5,
-          "rating": 2309,
-          "url": "https://lichess.org/tournament/SVQkiu4D"
-        },
-        {
-          "tournamentId": "BGKBlaPu",
-          "name": "88th Battle of the Baltic Sea Team Battle",
-          "startsAt": 1723309200000,
-          "finishesAt": 1723314600000,
-          "score": 26,
-          "rank": 3,
-          "teamRank": 1,
-          "rating": 2271,
-          "url": "https://lichess.org/tournament/BGKBlaPu"
-        }
-      ]
-    },
-    {
       "username": "MiloszMak",
-      "points": 23,
-      "battles": 7,
-      "average": 3.29,
+      "points": 27,
+      "battles": 8,
+      "average": 3.38,
       "bestScore": 7,
       "history": [
         {
@@ -3844,6 +3835,48 @@
           "teamRank": 1,
           "rating": 1868,
           "url": "https://lichess.org/tournament/Krs1cIk7"
+        },
+        {
+          "tournamentId": "YGSh3eMz",
+          "name": "146th Battle of the Baltic Sea Team Battle",
+          "startsAt": 1793469600000,
+          "finishesAt": 1793475000000,
+          "score": 4,
+          "rank": 15,
+          "teamRank": 1,
+          "rating": 1837,
+          "url": "https://lichess.org/tournament/YGSh3eMz"
+        }
+      ]
+    },
+    {
+      "username": "PandaMala",
+      "points": 26,
+      "battles": 2,
+      "average": 13.0,
+      "bestScore": 26,
+      "history": [
+        {
+          "tournamentId": "SVQkiu4D",
+          "name": "72nd Battle of the Baltic Sea Team Battle",
+          "startsAt": 1707588000000,
+          "finishesAt": 1707593400000,
+          "score": 0,
+          "rank": 55,
+          "teamRank": 5,
+          "rating": 2309,
+          "url": "https://lichess.org/tournament/SVQkiu4D"
+        },
+        {
+          "tournamentId": "BGKBlaPu",
+          "name": "88th Battle of the Baltic Sea Team Battle",
+          "startsAt": 1723309200000,
+          "finishesAt": 1723314600000,
+          "score": 26,
+          "rank": 3,
+          "teamRank": 1,
+          "rating": 2271,
+          "url": "https://lichess.org/tournament/BGKBlaPu"
         }
       ]
     },
